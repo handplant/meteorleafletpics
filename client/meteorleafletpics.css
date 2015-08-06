@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+}
+
+.leaflet-popup-content-wrapper {
+    border-radius: 0;
+    margin: 0;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+.leaflet-popup-content {
+    margin: 0;
+    padding: 0;
+}
+
+.leaflet-popup-content-wrapper img {
+    width: 90px;
+}
+
+.icon_current {
+    border-radius: 120px;
+    opacity: .75;
+    background-color: orange;
+}
+
+.icon_pic {
+    -webkit-box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.57);
+    -moz-box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.57);
+    box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.57);
+}
